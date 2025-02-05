@@ -12,9 +12,12 @@
   "unpkg": "dist/feather.min.js",
   "files": [
     "dist",
-    "src"
+    "src",
+    "icons"
   ],
   "scripts": {
+    "setup": "./bin/setup.sh",
+    "build": "./bin/build.sh",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
